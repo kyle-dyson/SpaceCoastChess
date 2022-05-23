@@ -1,5 +1,6 @@
 project:
   type: website
+  output-dir: docs
 
 website:
   title: "SpaceCoastChess"
@@ -8,7 +9,10 @@ website:
     left:
       - href: index.qmd
         text: Home
-      - about.qmd
+      - href: about.qmd
+        text: About Us
+      - href: reference.qmd
+        text: Builder's Reference
 
 format:
   html:
@@ -16,5 +20,4 @@ format:
     css: styles.css
     toc: true
 
-editor: visual
-
+editor: source
