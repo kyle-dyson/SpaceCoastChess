@@ -1,0 +1,23 @@
+---
+title: "Getting Started"
+author: "Kyle Dyson"
+---
+
+This document will serve to orient you to RStudio and Quarto for building dashboard websites.
+
+# Install RStudio and Quarto
+
+1.  Click [HERE](https://www.rstudio.com/products/rstudio/) to download RStudio for your computer. Install the program.
+2.  Click [HERE](https://quarto.org/docs/get-started/) to download and install Quarto.
+3.  
+
+
+
+You can read about Quarto here, <https://quarto.org>.
+
+
+
+[HTML Format Reference](https://quarto.org/docs/reference/formats/html.html)
+
+[HTML User Guide](https://quarto.org/docs/output-formats/html-basics.html)
+
