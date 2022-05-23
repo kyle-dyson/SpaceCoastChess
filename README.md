@@ -1,2 +1,2 @@
 # SpaceCoastChess
-Space Coast Chess Foundation website built with Quarto.
+This repository contains code for the Space Coast Chess Foundation's website, built with Quarto.
