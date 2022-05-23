@@ -4,7 +4,7 @@
     "href": "reference.html",
     "title": "Getting Started",
     "section": "",
-    "text": "Install RStudio and Quarto\n\nClick HERE to download RStudio for your computer. Install the program.\nClick HERE to download and install Quarto.\n\n\nYou can read about Quarto here, https://quarto.org.\nHTML Format Reference\nHTML User Guide"
+    "text": "Install RStudio and Quarto\n\nClick HERE to download RStudio for your computer. Install the program.\nClick HERE to download and install Quarto.\n\nCreating a Website with Quarto\nHTML Format Reference\nHTML User Guide\nPorting a Distill Blog to Quarto\nGitHub Repos for Quarto Website"
   },
   {
     "objectID": "index.html",

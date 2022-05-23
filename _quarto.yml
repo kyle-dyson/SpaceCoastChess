@@ -1,10 +1,7 @@
 project:
   type: website
-<<<<<<< HEAD
   output-dir: docs
-=======
   output: docs
->>>>>>> 7a1d3350d86c4bc41dc13bd75b880c07e376723a
 
 website:
   title: "SpaceCoastChess"
@@ -20,8 +17,8 @@ website:
 
 format:
   html:
-    theme: cosmo
-    css: styles.css
     toc: true
+    theme:
+      light: [cosmo, theme.scss]
 
 editor: source
