@@ -4,7 +4,7 @@
     "href": "reference.html",
     "title": "Getting Started",
     "section": "",
-    "text": "Install RStudio and Quarto\n\nClick HERE to download RStudio for your computer. Install the program.\nClick HERE to download and install Quarto.\n\nCreating a Website with Quarto\nHTML Format Reference\nHTML User Guide\nPorting a Distill Blog to Quarto\nGitHub Repos for Quarto Website"
+    "text": "This document will serve to orient you to RStudio and Quarto for building dashboard-style websites.\nClick HERE to download RStudio for your computer.\nYou’ll also need to download R.\nClick HERE to download and install Quarto."
   },
   {
     "objectID": "index.html",
@@ -19,5 +19,26 @@
     "title": "About Us",
     "section": "",
     "text": "We are best known for organizing and sponsoring the Space Coast Open Chess Festival, which has been held almost every year since 1991. We also started the local Scholastics Chess program, which is now ably run by the Space Coast Scholastic Chess Club and the Brevard Chess Center, with continued support from our Foundation.\nThe Space Coast Chess Foundation has received the Silver Seal of Transparency from GuideStar, a leading provider of information about non-profits. This rating places the Space Coast Chess Foundation in the top 2% of all non-profits based on transparency. Click on the logo below for more information."
+  },
+  {
+    "objectID": "software-packages.html",
+    "href": "software-packages.html",
+    "title": "Chess Software Packages",
+    "section": "",
+    "text": "Python\npython-chess\n\n\nHTML\nHow to embed PGN files in your website\nFrom: https://en.chessbase.com/post/the-future-of-chess-books-2"
+  },
+  {
+    "objectID": "reference.html#creating-a-website-with-quarto",
+    "href": "reference.html#creating-a-website-with-quarto",
+    "title": "Getting Started",
+    "section": "Creating a Website with Quarto",
+    "text": "Creating a Website with Quarto\nGitHub Repo for Quarto Website\nReference: Quarto Websites\n\n\n\nHTML Format Reference\nHTML User Guide\nPorting a Distill Blog to Quarto"
+  },
+  {
+    "objectID": "reference.html#git-github",
+    "href": "reference.html#git-github",
+    "title": "Getting Started",
+    "section": "Git & GitHub",
+    "text": "Git & GitHub\nHappy Git and GitHub for the useR"
   }
 ]

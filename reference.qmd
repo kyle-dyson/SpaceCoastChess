@@ -1,19 +1,25 @@
 ---
 title: "Getting Started"
 author: "Kyle Dyson"
+date: "`r Sys.Date()`"
 ---
 
 This document will serve to orient you to RStudio and Quarto for building dashboard-style websites.
 
-# Install RStudio and Quarto
+Click [HERE](https://www.rstudio.com/products/rstudio/) to download RStudio for your computer.
 
-1.  Click [HERE](https://www.rstudio.com/products/rstudio/) to download RStudio for your computer. Install the program.
-2.  Click [HERE](https://quarto.org/docs/get-started/) to download and install Quarto.
+  You'll also need to [download R](https://www.r-project.orghttps://www.r-project.org).
+
+Click [HERE](https://quarto.org/docs/get-started/) to download and install Quarto.
 
 
+## Creating a Website with Quarto
 
+[GitHub Repo for Quarto Website](https://github.com/quarto-dev/quarto-web)
 
-[Creating a Website with Quarto](https://quarto.org/docs/websites/)
+*Reference:* [Quarto Websites](https://quarto.org/docs/websites/)
+
+*    
 
 [HTML Format Reference](https://quarto.org/docs/reference/formats/html.html)
 
@@ -21,4 +27,8 @@ This document will serve to orient you to RStudio and Quarto for building dashbo
 
 [Porting a Distill Blog to Quarto](https://blog.djnavarro.net/posts/2022-04-20_porting-to-quarto/)
 
-[GitHub Repos for Quarto Website](https://github.com/quarto-dev/quarto-web)
+
+## Git & GitHub
+
+[Happy Git and GitHub for the useR](https://happygitwithr.com)
+

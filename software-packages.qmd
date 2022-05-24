@@ -1,0 +1,26 @@
+---
+title: "Chess Software Packages"
+---
+
+# R
+
+<https://rpubs.com/alexkaechele/463173>
+
+<https://dataanalysis.world/analyzing-a-chess-game-dataset-with-r/>
+
+[R Chess](http://jkunst.com/rchess/): mainly a wrapper of [chessjs](https://github.com/jhlywa/chess.js).
+
+[chess](https://curso-r.github.io/chess/): R wrapper around python-chess.
+
+[bigchess](https://github.com/rosawojciech/bigchess): (1) R package for interacting with PGN Files and (2) an R API to UCI Chess Engines.
+
+
+# Python
+[python-chess](https://github.com/niklasf/python-chess)
+
+
+# HTML
+
+[How to embed PGN files in your website](https://play.chessbase.com/en/howto/embedpgn)
+
+    From: https://en.chessbase.com/post/the-future-of-chess-books-2
