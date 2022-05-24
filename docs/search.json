@@ -32,7 +32,11 @@
     "href": "reference.html#creating-a-website-with-quarto",
     "title": "Getting Started",
     "section": "Creating a Website with Quarto",
+<<<<<<< HEAD
     "text": "Creating a Website with Quarto\nGitHub Repo for Quarto Website\nReference: Quarto Websites\n\n\n\nHTML Format Reference\nHTML User Guide"
+=======
+    "text": "Creating a Website with Quarto\nGitHub Repo for Quarto Website\nReference: Quarto Websites\n\n\n\nHTML Format Reference\nHTML User Guide\nPorting a Distill Blog to Quarto"
+>>>>>>> cc5242cba504889d813606e2a363cf719abe78d9
   },
   {
     "objectID": "reference.html#git-github",
@@ -40,6 +44,7 @@
     "title": "Getting Started",
     "section": "Git & GitHub",
     "text": "Git & GitHub\nHappy Git and GitHub for the useR"
+<<<<<<< HEAD
   },
   {
     "objectID": "reference.html#creating-a-blog-with-quarto",
@@ -47,5 +52,7 @@
     "title": "Getting Started",
     "section": "Creating a Blog with Quarto",
     "text": "Creating a Blog with Quarto\nhttps://www.apreshill.com/blog/2020-12-new-year-new-blogdown/\n\nMigrating Posts from Blogger\nBlogger-to-Hugo Tools\nPorting a Distill Blog to Quarto"
+=======
+>>>>>>> cc5242cba504889d813606e2a363cf719abe78d9
   }
 ]

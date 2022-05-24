@@ -13,12 +13,16 @@ Click [HERE](https://www.rstudio.com/products/rstudio/) to download RStudio for 
 Click [HERE](https://quarto.org/docs/get-started/) to download and install Quarto.
 
 
+## Creating a Website with Quarto
 
+<<<<<<< HEAD
 
 
 ## Creating a Website with Quarto
 
 
+=======
+>>>>>>> cc5242cba504889d813606e2a363cf719abe78d9
 [GitHub Repo for Quarto Website](https://github.com/quarto-dev/quarto-web)
 
 *Reference:* [Quarto Websites](https://quarto.org/docs/websites/)
@@ -44,6 +48,7 @@ https://www.apreshill.com/blog/2020-12-new-year-new-blogdown/
 
 ## Git & GitHub
 
+<<<<<<< HEAD
 
 [Happy Git and GitHub for the useR](https://happygitwithr.com)
 
@@ -59,3 +64,7 @@ Websites built with Hugo are extremely fast and secure. Hugo sites can be hosted
 
 We think of Hugo as the ideal website creation tool with nearly instant build times, able to rebuild whenever a change is made.
 
+=======
+[Happy Git and GitHub for the useR](https://happygitwithr.com)
+
+>>>>>>> cc5242cba504889d813606e2a363cf719abe78d9
