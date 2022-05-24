@@ -4,7 +4,7 @@ project:
   output: docs
 
 website:
-  title: "SpaceCoastChess"
+  title: "Space Coast Chess Foundation"
   navbar:
     background: primary
     left:
@@ -14,6 +14,8 @@ website:
         text: About Us
       - href: reference.qmd
         text: Builder's Reference
+      - href: software-packages.qmd
+        text: Software Packages
 
 format:
   html:

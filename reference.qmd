@@ -1,24 +1,61 @@
 ---
 title: "Getting Started"
 author: "Kyle Dyson"
+date: "`r Sys.Date()`"
 ---
 
 This document will serve to orient you to RStudio and Quarto for building dashboard-style websites.
 
-# Install RStudio and Quarto
+Click [HERE](https://www.rstudio.com/products/rstudio/) to download RStudio for your computer.
 
-1.  Click [HERE](https://www.rstudio.com/products/rstudio/) to download RStudio for your computer. Install the program.
-2.  Click [HERE](https://quarto.org/docs/get-started/) to download and install Quarto.
+  You'll also need to [download R](https://www.r-project.orghttps://www.r-project.org).
+
+Click [HERE](https://quarto.org/docs/get-started/) to download and install Quarto.
 
 
 
 
-[Creating a Website with Quarto](https://quarto.org/docs/websites/)
+
+## Creating a Website with Quarto
+
+
+[GitHub Repo for Quarto Website](https://github.com/quarto-dev/quarto-web)
+
+*Reference:* [Quarto Websites](https://quarto.org/docs/websites/)
+
+*    
 
 [HTML Format Reference](https://quarto.org/docs/reference/formats/html.html)
 
 [HTML User Guide](https://quarto.org/docs/output-formats/html-basics.html)
 
+
+## Creating a Blog with Quarto
+
+https://www.apreshill.com/blog/2020-12-new-year-new-blogdown/
+
+### Migrating Posts from Blogger
+
+[Blogger-to-Hugo Tools](https://gohugo.io/tools/migrations/#blogger)
+
+
 [Porting a Distill Blog to Quarto](https://blog.djnavarro.net/posts/2022-04-20_porting-to-quarto/)
 
-[GitHub Repos for Quarto Website](https://github.com/quarto-dev/quarto-web)
+
+## Git & GitHub
+
+
+[Happy Git and GitHub for the useR](https://happygitwithr.com)
+
+# Hugo
+
+https://gohugo.io/about/what-is-hugo/#how-fast-is-hugo
+
+What is Hugo
+Hugo is a fast and modern static site generator written in Go, and designed to make website creation fun again.
+Hugo is a general-purpose website framework. Technically speaking, Hugo is a static site generator. Unlike systems that dynamically build a page with each visitor request, Hugo builds pages when you create or update your content. Since websites are viewed far more often than they are edited, Hugo is designed to provide an optimal viewing experience for your website’s end users and an ideal writing experience for website authors.
+
+Websites built with Hugo are extremely fast and secure. Hugo sites can be hosted anywhere, including Netlify, Heroku, GoDaddy, DreamHost, GitHub Pages, GitLab Pages, Surge, Aerobatic, Firebase, Google Cloud Storage, Amazon S3, Rackspace, Azure, and CloudFront and work well with CDNs. Hugo sites run without the need for a database or dependencies on expensive runtimes like Ruby, Python, or PHP.
+
+We think of Hugo as the ideal website creation tool with nearly instant build times, able to rebuild whenever a change is made.
+
