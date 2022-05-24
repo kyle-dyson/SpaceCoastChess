@@ -16,11 +16,17 @@ website:
         text: Builder's Reference
       - href: software-packages.qmd
         text: Software Packages
+    right:
+      - about.qmd
+      - icon: github
+        href: https://github.com/
+      - icon: twitter
+        href: https://twitter.com
 
 format:
   html:
     toc: true
-    theme:
-      light: [cosmo, theme.scss]
+    theme: cosmo
+    css: styles.css
 
 editor: source
