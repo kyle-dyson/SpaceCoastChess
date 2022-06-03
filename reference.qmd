@@ -6,16 +6,13 @@ date: "`r Sys.Date()`"
 
 This document will serve to orient you to RStudio and Quarto for building dashboard-style websites.
 
+The quarto-markdown document (a.k.a. source file) for the page you're viewing, `reference.qmd` should be found under the home directory for this project .
+
 Click [HERE](https://www.rstudio.com/products/rstudio/) to download RStudio for your computer.
 
-  You'll also need to [download R](https://www.r-project.orghttps://www.r-project.org).
+You'll also need to [download R](https://www.r-project.orghttps://www.r-project.org).
 
 Click [HERE](https://quarto.org/docs/get-started/) to download and install Quarto.
-
-
-## Creating a Website with Quarto
-
-
 
 ## Creating a Website with Quarto
 
@@ -23,12 +20,9 @@ Click [HERE](https://quarto.org/docs/get-started/) to download and install Quart
 
 *Reference:* [Quarto Websites](https://quarto.org/docs/websites/)
 
-
-
 [HTML Format Reference](https://quarto.org/docs/reference/formats/html.html)
 
 [HTML User Guide](https://quarto.org/docs/output-formats/html-basics.html)
-
 
 ## Creating a Blog with Quarto
 
@@ -38,12 +32,9 @@ https://www.apreshill.com/blog/2020-12-new-year-new-blogdown/
 
 [Blogger-to-Hugo Tools](https://gohugo.io/tools/migrations/#blogger)
 
-
 [Porting a Distill Blog to Quarto](https://blog.djnavarro.net/posts/2022-04-20_porting-to-quarto/)
 
-
 ## Git & GitHub
-
 
 [Happy Git and GitHub for the useR](https://happygitwithr.com)
 
@@ -51,13 +42,73 @@ https://www.apreshill.com/blog/2020-12-new-year-new-blogdown/
 
 https://gohugo.io/about/what-is-hugo/#how-fast-is-hugo
 
-What is Hugo
-Hugo is a fast and modern static site generator written in Go, and designed to make website creation fun again.
-Hugo is a general-purpose website framework. Technically speaking, Hugo is a static site generator. Unlike systems that dynamically build a page with each visitor request, Hugo builds pages when you create or update your content. Since websites are viewed far more often than they are edited, Hugo is designed to provide an optimal viewing experience for your website’s end users and an ideal writing experience for website authors.
+What is Hugo Hugo is a fast and modern static site generator written in Go, and designed to make website creation fun again. Hugo is a general-purpose website framework. Technically speaking, Hugo is a static site generator. Unlike systems that dynamically build a page with each visitor request, Hugo builds pages when you create or update your content. Since websites are viewed far more often than they are edited, Hugo is designed to provide an optimal viewing experience for your website's end users and an ideal writing experience for website authors.
 
 Websites built with Hugo are extremely fast and secure. Hugo sites can be hosted anywhere, including Netlify, Heroku, GoDaddy, DreamHost, GitHub Pages, GitLab Pages, Surge, Aerobatic, Firebase, Google Cloud Storage, Amazon S3, Rackspace, Azure, and CloudFront and work well with CDNs. Hugo sites run without the need for a database or dependencies on expensive runtimes like Ruby, Python, or PHP.
 
 We think of Hugo as the ideal website creation tool with nearly instant build times, able to rebuild whenever a change is made.
 
-
 [Happy Git and GitHub for the useR](https://happygitwithr.com)
+
+------------------------------------------------------------------------
+
+# Customizing with HTML, CSS & more
+
+<br>
+
+*If any of the below does not make sense, please refer to the following resource (or fix the issue and place a commit-fix):* <https://m-clark.github.io/Introduction-to-Rmarkdown/customization.html#html-css>
+
+<br>
+
+If you want to tweak how your website looks, you'll need to at least learn some introductory level HTML. Optionally, you may also learn CSS and JavaScript to further customize the look and feel of your website, but both of these languages can be much more complicated to learn and implement. learn some CSS and JavaScript if you wish to customize the appearance of HTML documents
+
+| Tip: you can learn a lot about CSS and JavaScript for web development by using your browser's *Developer Tools*.
+
+## Developer's Tools
+
+In *Safari* you can either open the Developer's tab, You can also see the CSS styles associated with this img element in the right pane. What is more, you can interactively change the styles there if you know CSS, and see the (temporary) effects in real time on the page
+
+## HTML
+
+`<br>` adds a line break
+
+Can alternatively use htmltools::br()
+
+Centered image, smaller size: `<img src="img/R.ico" style="display: block; margin: 0 auto;" width=40px>`
+
+*Please add more to this section if you find anything worth saving; same for the following section on CSS.*
+
+## CSS
+
+### Inline CSS
+
+[This sentence is tyrian purple, bold, and has bigger font because I put `<span style='color:#66023C; font-size:150%; font-weight:600'>` before it and `</span>` after it.]{style="color:#66023C; font-size:150%; font-weight:600"}
+
+While `src` and `width` above are self-explanatory, `style` is where you can specify CSS styling. In the above example, `style=display: block; margin: 0; auto;` serves to center the image. Taking `display: block` out and changing the `margin:` to `0 0` will default to left-alignment within the part of the page (container) the image resides in.
+
+<img src="img/R.ico" style="margin: 0 0;" width="40px"/>
+
+| Note: the above image is broken because the file for the image is not associated with this markdown file. In other words, `R.ico` on line 89 doesn't exist.
+
+### File-Defined CSS
+
+Create a `*.css` file that your R Markdown document can refer to.
+
+Let's say we want to make every link dodgerblue.
+
+Links in HTML are tagged with the letter `a`, and to insert a link with HTML you can do something like:
+
+`<a href='https://m-clark.github.io>wowee zowee!</a>`\
+It would look like this: wowee zowee!. If we want to change the color from the default setting for all links, we go into our CSS file.
+
+a { color: dodgerblue; } Now our links would look like this: wowee zowee!
+
+    output:
+      html_document:
+        css: mystyle.css
+
+Now every link you create will be that color. We could add a subtle background to it, make them bold or whatever.
+
+a { color: dodgerblue; background-color: #f2f2f2; font-weight: 800; } Now it becomes wowee zowee!. In a similar fashion, you could make images always display at 50% width by default.
+
+img { width: 50%; }
