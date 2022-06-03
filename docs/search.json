@@ -18,14 +18,14 @@
     "href": "reference.html",
     "title": "Getting Started",
     "section": "",
-    "text": "This document will serve to orient you to RStudio and Quarto for building dashboard-style websites.\nClick HERE to download RStudio for your computer.\nYou’ll also need to download R.\nClick HERE to download and install Quarto."
+    "text": "This document will serve to orient you to RStudio and Quarto for building dashboard-style websites.\nThe quarto-markdown document (a.k.a. source file) for the page you’re viewing, reference.qmd should be found under the home directory for this project .\nClick HERE to download RStudio for your computer.\nYou’ll also need to download R.\nClick HERE to download and install Quarto."
   },
   {
     "objectID": "reference.html#creating-a-website-with-quarto",
     "href": "reference.html#creating-a-website-with-quarto",
     "title": "Getting Started",
     "section": "Creating a Website with Quarto",
-    "text": "Creating a Website with Quarto"
+    "text": "Creating a Website with Quarto\nGitHub Repo for Quarto Website\nReference: Quarto Websites\nHTML Format Reference\nHTML User Guide"
   },
   {
     "objectID": "reference.html#creating-a-website-with-quarto-1",
@@ -68,5 +68,26 @@
     "title": "Chess Software Packages",
     "section": "",
     "text": "Python\npython-chess\n\n\nHTML\nHow to embed PGN files in your website\nFrom: https://en.chessbase.com/post/the-future-of-chess-books-2"
+  },
+  {
+    "objectID": "reference.html#developers-tools",
+    "href": "reference.html#developers-tools",
+    "title": "Getting Started",
+    "section": "Developer’s Tools",
+    "text": "Developer’s Tools\nIn Safari you can either open the Developer’s tab, You can also see the CSS styles associated with this img element in the right pane. What is more, you can interactively change the styles there if you know CSS, and see the (temporary) effects in real time on the page"
+  },
+  {
+    "objectID": "reference.html#html",
+    "href": "reference.html#html",
+    "title": "Getting Started",
+    "section": "HTML",
+    "text": "HTML\n<br> adds a line break\nCan alternatively use htmltools::br()\nCentered image, smaller size: <img src=\"img/R.ico\" style=\"display: block; margin: 0 auto;\" width=40px>\nPlease add more to this section if you find anything worth saving; same for the following section on CSS."
+  },
+  {
+    "objectID": "reference.html#css",
+    "href": "reference.html#css",
+    "title": "Getting Started",
+    "section": "CSS",
+    "text": "CSS\n\nInline CSS\nThis sentence is tyrian purple, bold, and has bigger font because I put <span style='color:#66023C; font-size:150%; font-weight:600'> before it and </span> after it.\nWhile src and width above are self-explanatory, style is where you can specify CSS styling. In the above example, style=display: block; margin: 0; auto; serves to center the image. Taking display: block out and changing the margin: to 0 0 will default to left-alignment within the part of the page (container) the image resides in.\n\nNote: the above image is broken because the file for the image is not associated with this markdown file. In other words, R.ico on line 89 doesn’t exist.\n\n\nFile-Defined CSS\nCreate a *.css file that your R Markdown document can refer to.\nLet’s say we want to make every link dodgerblue.\nLinks in HTML are tagged with the letter a, and to insert a link with HTML you can do something like:\n<a href='https://m-clark.github.io>wowee zowee!</a>\nIt would look like this: wowee zowee!. If we want to change the color from the default setting for all links, we go into our CSS file.\na { color: dodgerblue; } Now our links would look like this: wowee zowee!\noutput:\n  html_document:\n    css: mystyle.css\nNow every link you create will be that color. We could add a subtle background to it, make them bold or whatever.\na { color: dodgerblue; background-color: #f2f2f2; font-weight: 800; } Now it becomes wowee zowee!. In a similar fashion, you could make images always display at 50% width by default.\nimg { width: 50%; }"
   }
 ]

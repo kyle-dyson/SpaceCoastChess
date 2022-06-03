@@ -7,7 +7,7 @@
 <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
 
 <meta name="author" content="Kyle Dyson">
-<meta name="dcterms.date" content="2022-05-24">
+<meta name="dcterms.date" content="2022-06-03">
 
 <title>Space Coast Chess Foundation - Getting Started</title>
 <style>
@@ -111,13 +111,22 @@ ul.task-list{list-style: none;}
    
   <ul>
   <li><a href="#creating-a-website-with-quarto" id="toc-creating-a-website-with-quarto" class="nav-link active" data-scroll-target="#creating-a-website-with-quarto">Creating a Website with Quarto</a></li>
-  <li><a href="#creating-a-website-with-quarto-1" id="toc-creating-a-website-with-quarto-1" class="nav-link" data-scroll-target="#creating-a-website-with-quarto-1">Creating a Website with Quarto</a></li>
   <li><a href="#creating-a-blog-with-quarto" id="toc-creating-a-blog-with-quarto" class="nav-link" data-scroll-target="#creating-a-blog-with-quarto">Creating a Blog with Quarto</a>
   <ul class="collapse">
   <li><a href="#migrating-posts-from-blogger" id="toc-migrating-posts-from-blogger" class="nav-link" data-scroll-target="#migrating-posts-from-blogger">Migrating Posts from Blogger</a></li>
   </ul></li>
   <li><a href="#git-github" id="toc-git-github" class="nav-link" data-scroll-target="#git-github">Git &amp; GitHub</a></li>
   <li><a href="#hugo" id="toc-hugo" class="nav-link" data-scroll-target="#hugo">Hugo</a></li>
+  <li><a href="#customizing-with-html-css-more" id="toc-customizing-with-html-css-more" class="nav-link" data-scroll-target="#customizing-with-html-css-more">Customizing with HTML, CSS &amp; more</a>
+  <ul class="collapse">
+  <li><a href="#developers-tools" id="toc-developers-tools" class="nav-link" data-scroll-target="#developers-tools">Developer’s Tools</a></li>
+  <li><a href="#html" id="toc-html" class="nav-link" data-scroll-target="#html">HTML</a></li>
+  <li><a href="#css" id="toc-css" class="nav-link" data-scroll-target="#css">CSS</a>
+  <ul class="collapse">
+  <li><a href="#inline-css" id="toc-inline-css" class="nav-link" data-scroll-target="#inline-css">Inline CSS</a></li>
+  <li><a href="#file-defined-css" id="toc-file-defined-css" class="nav-link" data-scroll-target="#file-defined-css">File-Defined CSS</a></li>
+  </ul></li>
+  </ul></li>
   </ul>
 </nav>
     </div>
@@ -143,7 +152,7 @@ ul.task-list{list-style: none;}
     <div>
     <div class="quarto-title-meta-heading">Published</div>
     <div class="quarto-title-meta-contents">
-      <p class="date">May 24, 2022</p>
+      <p class="date">June 3, 2022</p>
     </div>
   </div>
     
@@ -153,14 +162,12 @@ ul.task-list{list-style: none;}
 </header>
 
 <p>This document will serve to orient you to RStudio and Quarto for building dashboard-style websites.</p>
+<p>The quarto-markdown document (a.k.a. source file) for the page you’re viewing, <code>reference.qmd</code> should be found under the home directory for this project .</p>
 <p>Click <a href="https://www.rstudio.com/products/rstudio/">HERE</a> to download RStudio for your computer.</p>
 <p>You’ll also need to <a href="https://www.r-project.orghttps://www.r-project.org">download R</a>.</p>
 <p>Click <a href="https://quarto.org/docs/get-started/">HERE</a> to download and install Quarto.</p>
 <section id="creating-a-website-with-quarto" class="level2">
 <h2 class="anchored" data-anchor-id="creating-a-website-with-quarto">Creating a Website with Quarto</h2>
-</section>
-<section id="creating-a-website-with-quarto-1" class="level2">
-<h2 class="anchored" data-anchor-id="creating-a-website-with-quarto-1">Creating a Website with Quarto</h2>
 <p><a href="https://github.com/quarto-dev/quarto-web">GitHub Repo for Quarto Website</a></p>
 <p><em>Reference:</em> <a href="https://quarto.org/docs/websites/">Quarto Websites</a></p>
 <p><a href="https://quarto.org/docs/reference/formats/html.html">HTML Format Reference</a></p>
@@ -186,8 +193,53 @@ ul.task-list{list-style: none;}
 <p>Websites built with Hugo are extremely fast and secure. Hugo sites can be hosted anywhere, including Netlify, Heroku, GoDaddy, DreamHost, GitHub Pages, GitLab Pages, Surge, Aerobatic, Firebase, Google Cloud Storage, Amazon S3, Rackspace, Azure, and CloudFront and work well with CDNs. Hugo sites run without the need for a database or dependencies on expensive runtimes like Ruby, Python, or PHP.</p>
 <p>We think of Hugo as the ideal website creation tool with nearly instant build times, able to rebuild whenever a change is made.</p>
 <p><a href="https://happygitwithr.com">Happy Git and GitHub for the useR</a></p>
+<hr>
+</section>
+<section id="customizing-with-html-css-more" class="level1">
+<h1>Customizing with HTML, CSS &amp; more</h1>
+<p><br></p>
+<p><em>If any of the below does not make sense, please refer to the following resource (or fix the issue and place a commit-fix):</em> <a href="https://m-clark.github.io/Introduction-to-Rmarkdown/customization.html#html-css" class="uri">https://m-clark.github.io/Introduction-to-Rmarkdown/customization.html#html-css</a></p>
+<p><br></p>
+<p>If you want to tweak how your website looks, you’ll need to at least learn some introductory level HTML. Optionally, you may also learn CSS and JavaScript to further customize the look and feel of your website, but both of these languages can be much more complicated to learn and implement. learn some CSS and JavaScript if you wish to customize the appearance of HTML documents</p>
+<p>Tip: you can learn a lot about CSS and JavaScript for web development by using your browser’s <em>Developer Tools</em>.</p>
+<section id="developers-tools" class="level2">
+<h2 class="anchored" data-anchor-id="developers-tools">Developer’s Tools</h2>
+<p>In <em>Safari</em> you can either open the Developer’s tab, You can also see the CSS styles associated with this img element in the right pane. What is more, you can interactively change the styles there if you know CSS, and see the (temporary) effects in real time on the page</p>
+</section>
+<section id="html" class="level2">
+<h2 class="anchored" data-anchor-id="html">HTML</h2>
+<p><code>&lt;br&gt;</code> adds a line break</p>
+<p>Can alternatively use htmltools::br()</p>
+<p>Centered image, smaller size: <code>&lt;img src="img/R.ico" style="display: block; margin: 0 auto;" width=40px&gt;</code></p>
+<p><em>Please add more to this section if you find anything worth saving; same for the following section on CSS.</em></p>
+</section>
+<section id="css" class="level2">
+<h2 class="anchored" data-anchor-id="css">CSS</h2>
+<section id="inline-css" class="level3">
+<h3 class="anchored" data-anchor-id="inline-css">Inline CSS</h3>
+<p><span style="color:#66023C; font-size:150%; font-weight:600">This sentence is tyrian purple, bold, and has bigger font because I put <code>&lt;span style='color:#66023C; font-size:150%; font-weight:600'&gt;</code> before it and <code>&lt;/span&gt;</code> after it.</span></p>
+<p>While <code>src</code> and <code>width</code> above are self-explanatory, <code>style</code> is where you can specify CSS styling. In the above example, <code>style=display: block; margin: 0; auto;</code> serves to center the image. Taking <code>display: block</code> out and changing the <code>margin:</code> to <code>0 0</code> will default to left-alignment within the part of the page (container) the image resides in.</p>
+<p><img src="img/R.ico" style="margin: 0 0;" width="40px"></p>
+<p>Note: the above image is broken because the file for the image is not associated with this markdown file. In other words, <code>R.ico</code> on line 89 doesn’t exist.</p>
+</section>
+<section id="file-defined-css" class="level3">
+<h3 class="anchored" data-anchor-id="file-defined-css">File-Defined CSS</h3>
+<p>Create a <code>*.css</code> file that your R Markdown document can refer to.</p>
+<p>Let’s say we want to make every link dodgerblue.</p>
+<p>Links in HTML are tagged with the letter <code>a</code>, and to insert a link with HTML you can do something like:</p>
+<p><code>&lt;a href='https://m-clark.github.io&gt;wowee zowee!&lt;/a&gt;</code><br>
+It would look like this: wowee zowee!. If we want to change the color from the default setting for all links, we go into our CSS file.</p>
+<p>a { color: dodgerblue; } Now our links would look like this: wowee zowee!</p>
+<pre><code>output:
+  html_document:
+    css: mystyle.css</code></pre>
+<p>Now every link you create will be that color. We could add a subtle background to it, make them bold or whatever.</p>
+<p>a { color: dodgerblue; background-color: #f2f2f2; font-weight: 800; } Now it becomes wowee zowee!. In a similar fashion, you could make images always display at 50% width by default.</p>
+<p>img { width: 50%; }</p>
 
 
+</section>
+</section>
 </section>
 
 </main> <!-- /main -->
