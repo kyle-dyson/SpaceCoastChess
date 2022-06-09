@@ -3,7 +3,7 @@ title: "Getting Started"
 author: "Kyle Dyson"
 date: "`r Sys.Date()`"
 ---
-
+ 
 This document will serve to orient you to RStudio and Quarto for building dashboard-style websites.
 
 The quarto-markdown document (a.k.a. source file) for the page you're viewing, `reference.qmd` should be found under the home directory for this project .
